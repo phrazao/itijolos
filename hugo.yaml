@@ -1,5 +1,4 @@
 baseURL: https://www.hugobricks.preview.usecue.com
-theme: hugobricks
 defaultContentLanguage: en
 assetDir: static
 
