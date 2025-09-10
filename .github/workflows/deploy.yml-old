@@ -1,0 +1,58 @@
+name: Deploy Hugo Bricks to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:  # Permite deploy manual
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  HUGO_ENV: production
+  HUGO_VERSION: "0.149.1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+        with:
+          submodules: false
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Get Hugo Modules
+        run: |
+          hugo mod get -u
+          hugo mod tidy
+
+      - name: Build Site
+        run: hugo --minify --baseURL https://phrazao.github.io/ibrick/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
