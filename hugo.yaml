@@ -1,4 +1,6 @@
-baseURL: https://www.hugobricks.preview.usecue.com
+baseURL: https://phrazao.github.io/ibrick/
+# Title of your website (required).
+title: impossibilis
 defaultContentLanguage: en
 assetDir: static
 
