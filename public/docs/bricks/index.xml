@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bricks on impossibilis</title><link>https://phrazao.github.io/itijolos/docs/bricks/</link><description>Recent content in Bricks on impossibilis</description><generator>Hugo</generator><language>en</language><atom:link href="https://phrazao.github.io/itijolos/docs/bricks/index.xml" rel="self" type="application/rss+xml"/><item><title>404 (not found)</title><link>https://phrazao.github.io/itijolos/docs/bricks/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/404/</guid><description>&lt;p&gt;Having a nice 404 (page not found) page is always nice. This brick provides one. You can see it in action on the &lt;a href="https://phrazao.github.io/itijolos/404/"&gt;custom 404 page&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="use-this-brick"&gt;Use this brick&lt;/h2&gt;
+&lt;p&gt;You can stack the brick on top of other bricks, which is explained in the &lt;a href="https://phrazao.github.io/itijolos/docs/bricks/"&gt;Bricks page&lt;/a&gt;. If you want the brick to be the same on every page you can use this brick by writing:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; brick_404 &amp;gt;}}{{&amp;lt; /brick_404 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--&lt;section class="error404"&gt;
+ &lt;div class="container small"&gt;
+ Empty brick found. Consider creating a &amp;lsquo;content/bricks/404.md&amp;rsquo; file.
+ &lt;/div&gt;
+&lt;/section&gt;--&gt;
+&lt;h2 id="content-in-contentenbricks404md"&gt;Content in content/en/bricks/404.md&lt;/h2&gt;
+&lt;p&gt;The content of the brick should be stored in the file &amp;lsquo;404.md&amp;rsquo; in the &amp;lsquo;content/en/bricks/&amp;rsquo; folder. Note that the filename is equal to the name of the brick (without &amp;lsquo;brick_&amp;rsquo;). This file should look like this:&lt;/p&gt;</description></item><item><title>About</title><link>https://phrazao.github.io/itijolos/docs/bricks/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/about/</guid><description>&lt;p&gt;Description coming soon&amp;hellip;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description></item><item><title>Call to action</title><link>https://phrazao.github.io/itijolos/docs/bricks/cta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/cta/</guid><description>&lt;p&gt;It is always nice (and good for conversion) to show a &amp;lsquo;Call to action&amp;rsquo; on your page (a short text, leading to a button and a related image). An example of such a &amp;lsquo;Call to action brick&amp;rsquo; can be found in the footer of this page. It is the block titled &amp;lsquo;Get started with Hugobricks today!&amp;rsquo;.&lt;/p&gt;
+&lt;h2 id="use-this-brick"&gt;Use this brick&lt;/h2&gt;
+&lt;p&gt;You probably want the CTA brick to be the same on every page. You can stack the brick on top of other bricks, which is explained in the &lt;a href="https://phrazao.github.io/itijolos/docs/bricks/"&gt;Bricks page&lt;/a&gt;. If you want the brick to be the same on every page you can use this brick by writing:&lt;/p&gt;</description></item><item><title>Contact</title><link>https://phrazao.github.io/itijolos/docs/bricks/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/contact/</guid><description>&lt;p&gt;Description coming soon&amp;hellip;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description></item><item><title>Features</title><link>https://phrazao.github.io/itijolos/docs/bricks/features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/features/</guid><description>&lt;p&gt;Want to show the selling points of your service or product? Say you want to achieve a neat Features &amp;lsquo;component&amp;rsquo;. You can see it in action at the &lt;a href="https://phrazao.github.io/itijolos/"&gt;home page&lt;/a&gt; of this website. To make it appear on your page, you can use the markup below.&lt;/p&gt;
+&lt;h2 id="use-this-brick"&gt;Use this brick&lt;/h2&gt;
+&lt;p&gt;You probably want the Features brick to be the same on every page. You can stack the brick on top of other bricks, which is explained in the &lt;a href="https://phrazao.github.io/itijolos/docs/bricks/"&gt;Bricks page&lt;/a&gt;. If you want the brick to be the same on every page you can Use this brick by writing this:&lt;/p&gt;</description></item><item><title>Image</title><link>https://phrazao.github.io/itijolos/docs/bricks/image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/image/</guid><description>&lt;p&gt;The image brick creates&amp;hellip; (description coming soon). This is achieved by the following markup:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; brick_image &amp;gt;}}{{&amp;lt; /brick_image &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--
+
+
+
+&lt;section class="image"&gt;
+ &lt;div class="container twocols"&gt;
+ &lt;div class="text"&gt;
+ &lt;div&gt;Empty brick found. Consider creating a &amp;lsquo;content/bricks/image.md&amp;rsquo; file.&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="image"&gt;
+ &lt;div&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+--&gt;</description></item><item><title>Image alt</title><link>https://phrazao.github.io/itijolos/docs/bricks/image2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/image2/</guid><description>&lt;p&gt;The alternative image brick (image2) creates&amp;hellip; (description coming soon). This is achieved by the following markup:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; brick_image2 &amp;gt;}}{{&amp;lt; /brick_image2 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--
+
+
+
+&lt;section class="image alt hasbackgroundcolor"&gt;
+ &lt;div class="container twocols"&gt;
+ &lt;div class="text"&gt;
+ Empty brick found. Consider creating a &amp;lsquo;content/bricks/image.md&amp;rsquo; file.
+ &lt;/div&gt;
+ &lt;div class="image"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+--&gt;</description></item><item><title>Intro</title><link>https://phrazao.github.io/itijolos/docs/bricks/intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/intro/</guid><description>&lt;p&gt;Say you want to achieve a neat Intro &amp;lsquo;component&amp;rsquo; (see the first content section at the home page of this sample website).
+Just re-use the following markup:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;---
+title: Page title
+---
+{{&amp;lt; brick_intro &amp;gt;}}
+
+# The Ultimate Theme You Need To Start Your Hugo Website
+
+Hugobricks is a free website theme built with Hugo and vanilla CSS, providing everything you need to jumpstart your Hugo website and save valuable time.
+
+{{&amp;lt; button &amp;#34;Get started for free&amp;#34; &amp;#34;/get-started/&amp;#34; &amp;gt;}}
+
+![](/uploads/brick_intro.png)
+
+{{&amp;lt; /brick_intro &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--&lt;section class="intro"&gt;
+ &lt;div class="container small"&gt;&lt;h1 id="the-ultimate-theme-you-need-to-start-your-hugo-website"&gt;The Ultimate Theme You Need To Start Your Hugo Website&lt;/h1&gt;
+&lt;p&gt;Hugobricks is a free website theme built with Hugo and vanilla CSS, providing everything you need to jumpstart your Hugo website and save valuable time.&lt;/p&gt;</description></item><item><title>Map</title><link>https://phrazao.github.io/itijolos/docs/bricks/map/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/map/</guid><description>&lt;p&gt;Say you want to achieve a neat Map &amp;lsquo;component&amp;rsquo; (see the first content section at the home page of this sample website).
+In order to get such a component, just use the markup below. The content in the brick starts with a screenshot of the given map area and the URL of the mapping service provider (Google, OpenstreetMaps, etc). They will automatically be converted into a clickable map. If you want to see this brick in action, take a look at the footer of the &lt;a href="https://phrazao.github.io/itijolos/contact/"&gt;contact page&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Posts</title><link>https://phrazao.github.io/itijolos/docs/bricks/posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/posts/</guid><description>&lt;p&gt;If you want to show the latest (blog) posts on your website, you can use the posts brick. This requires you to use the following markup:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;---
+title: Page title
+---
+{{&amp;lt; brick_posts &amp;gt;}}
+
+{{&amp;lt; breadcrumbs &amp;gt;}}
+
+# Blog posts
+
+This is a demo of the blog. In ultricies vel enim vel pulvinar. Quisque finibus sem velit, sed consequat mi ullamcorper vitae. Proin finibus tristique sollicitudin.
+
+{{&amp;lt; /brick_posts &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--&lt;section class="posts"&gt;
+ 
+ &lt;div class="container"&gt;
+ &lt;div class="filter"&gt;
+ &lt;select id="filter" class="multiselecttags numbers_true" multiple autocomplete="off" title="Filter tags"&gt;
+ 
+ &lt;/select&gt;
+ &lt;/div&gt;
+ &lt;ul class="contentitems grid posts" data-pagesize="3"&gt;
+ 
+ &lt;li class="item tag_performance tag_jamstack"&gt;&lt;a href="https://phrazao.github.io/itijolos/blog/this-theme-has-a-perfect-google-lighthousenbspscore/"&gt;&lt;div class="img"&gt;&lt;img data-src="https://phrazao.github.io/itijolos/uploads/gallery/02_hu_24fdec3576d9af97.jpg" alt="This theme has a perfect Google Lighthouse&amp;amp;nbsp;score" style="cursor: pointer;" onclick="document.location.href='\/itijolos\/blog\/this-theme-has-a-perfect-google-lighthousenbspscore\/';" /&gt;&lt;/div&gt;&lt;/a&gt;&lt;h3&gt;This theme has a perfect Google Lighthouse&amp;nbsp;score&lt;/h3&gt;
+ &lt;div class="meta"&gt;
+ &lt;div&gt;
+ &lt;img src="https://phrazao.github.io/itijolos/img/icons/material-symbols/200/rounded/calendar_month-fill.svg"class="black_2_textDark" alt="" /&gt;
+ Jul 11, 2023
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+ &lt;div class="summary"&gt;
+ &lt;p&gt;This theme has a (near) perfect Google Lighthouse score. Some people like fast cars. I like fast websites. But how to get to a perfect Google Lighthouse score? Let me explain.
+You might feel...&lt;/p&gt;</description></item><item><title>Reviews</title><link>https://phrazao.github.io/itijolos/docs/bricks/reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/reviews/</guid><description>&lt;p&gt;Say you want to achieve a neat Reviews &amp;lsquo;component&amp;rsquo;, with some feedback. See the &lt;a href="https://phrazao.github.io/itijolos/"&gt;relevant section&lt;/a&gt; at the home page of this sample website. Just use the following markup:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;---
+title: Page title
+---
+{{&amp;lt; brick_reviews &amp;gt;}}
+
+## What Users Are Saying About Hugobricks
+
+Don&amp;#39;t just take our word for it - hear from some of our satisfied users! Check out some of our testimonials below to see what others are saying about Hugobricks.
+
+{{&amp;lt; /brick_reviews &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--&lt;section class="reviews"&gt;
+ &lt;div class="container small"&gt;&lt;h2 id="what-users-say-about-hugobricks"&gt;What users say about Hugobricks&lt;/h2&gt;
+&lt;p&gt;Don&amp;rsquo;t just take our word for it - hear from some of our satisfied users! Check out some of our testimonials below to see what others are saying about Hugobricks.&lt;/p&gt;</description></item><item><title>Team</title><link>https://phrazao.github.io/itijolos/docs/bricks/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/team/</guid><description>&lt;p&gt;Description coming soon&amp;hellip;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description></item><item><title>Title</title><link>https://phrazao.github.io/itijolos/docs/bricks/title/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/title/</guid><description>&lt;p&gt;The title brick creates a narrow h1 title with an introduction paragraph below it. You can see it in action &lt;a href="https://phrazao.github.io/itijolos/elements/"&gt;on the top of the Elements page&lt;/a&gt;. This is achieved by the following markup:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;---
+title: Page title
+---
+{{&amp;lt; brick_title &amp;gt;}}
+
+{{&amp;lt; breadcrumbs &amp;gt;}}
+
+# Elements
+
+Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hendrerit lacus. Sed eget dapibus dui. Phasellus non ante sollicitudin, ultrices ex et, convallis orci. 
+
+{{&amp;lt; /brick_title &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--&lt;section class="title"&gt;
+ &lt;div class="container small"&gt;&lt;/div&gt;
+&lt;/section&gt;--&gt;</description></item><item><title>Title alt</title><link>https://phrazao.github.io/itijolos/docs/bricks/title2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/title2/</guid><description>&lt;p&gt;The alternative title brick (title2) creates&amp;hellip; (description coming soon). This is achieved by the following markup:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; brick_title2 &amp;gt;}}{{&amp;lt; /brick_title2 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--&lt;section class="title"&gt;
+ &lt;div class="container small"&gt;&lt;/div&gt;
+&lt;/section&gt;--&gt;</description></item><item><title>Webshop ~ Product doc</title><link>https://phrazao.github.io/itijolos/docs/bricks/webshop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/webshop/</guid><description>&lt;h1 id="introducing-our-exclusive-product"&gt;Introducing Our Exclusive Product&lt;/h1&gt;
+&lt;p&gt;Enjoy this top-quality product, designed to elevate your experience. Available for a limited time only!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Price: $49.99&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;{{&amp;lt; button &amp;ldquo;Add to Cart&amp;rdquo; &amp;ldquo;/checkout&amp;rdquo; &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://phrazao.github.io/itijolos/uploads/brick_webshop.webp" alt="Product Image" /&gt;&lt;/p&gt;
+&lt;p&gt;Webshop brick might help ? Say you can re-use it like this :&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;---
+title: Webshop Page title
+---
+{{&amp;lt; brick_webshop &amp;gt;}}
+
+## Hugobricks Webshop
+
+Discover the perfect product to meet your needs.
+
+{{&amp;lt; /brick_webshop &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="todo-what-about-the-products-content-strategy-"&gt;TODO What about the Products &amp;lsquo;content&amp;rsquo; strategy ?&lt;/h2&gt;
+&lt;h3 id="todo-hugo-section-approach"&gt;TODO: &amp;lsquo;Hugo section&amp;rsquo; approach&lt;/h3&gt;
+&lt;p&gt;Like in /content/en/webshop/:product-filename&amp;rsquo; as a series of markdown files: one file per product. It&amp;rsquo;s frontmatter provides the product specifications (as YAML formatted
+fields)&lt;/p&gt;</description></item><item><title>Wide</title><link>https://phrazao.github.io/itijolos/docs/bricks/wide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://phrazao.github.io/itijolos/docs/bricks/wide/</guid><description>&lt;p&gt;The wide brick creates&amp;hellip; (description coming soon). This is achieved by the following markup:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{&amp;lt; brick_wide &amp;gt;}}{{&amp;lt; /brick_wide &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;!--&lt;section class="wide"&gt;
+ &lt;div class="container"&gt;
+ &lt;p&gt;Empty brick found. Consider creating a &amp;lsquo;content/bricks/wide.md&amp;rsquo; file.&lt;/p&gt;
+ &lt;/div&gt;
+&lt;/section&gt;--&gt;</description></item></channel></rss>
