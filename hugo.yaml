@@ -55,4 +55,4 @@ languages:
 
 module:
   imports:
-    - path: https://github.com/rterakedis/hugobricks-mod
+    - path: github.com/rterakedis/hugobricks-mod
